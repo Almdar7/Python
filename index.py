@@ -203,11 +203,11 @@
 #     web_scraping(url)
 
 
-import requests
-from bs4 import BeautifulSoup
-import tkinter as tk
+import requests #extracción y manipulación de datos
+from bs4 import BeautifulSoup # extracción y manipulación de datos
+import tkinter as tk #  crear interfaz
 from tkinter import ttk
-from PIL import Image, ImageTk
+from PIL import Image, ImageTk #Permite abrir, manipular y guardar imágenes en varios formatos
 from io import BytesIO
 import re
 import base64
